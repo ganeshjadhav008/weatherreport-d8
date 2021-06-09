@@ -1,0 +1,21 @@
+{# material/templates/weather.html.twig #}
+
+<div class="report-container">
+    <h2>{{ params.name }} Weather Status</h2>
+    <div class="time">
+        <div> {{ params.dayTime }} </div>
+        <div> {{ params.longDateTime }} </div>
+        <div> {{ params.description }} </div>
+    </div>
+    <div class="weather-forecast">
+        <img src="http://openweathermap.org/img/w/{{ params.icon }}.png"
+            class="weather-icon" /> {{ params.temp_max }}°C <span
+            class="min-temperature"> {{ params.temp_min }}°C </span>
+    </div>
+    <div class="time">
+        <div>Humidity: {{ params.humidity }} %</div>
+        <div>Wind: {{ params.wind }} km/h</div>
+    </div>
+</div>
+
+

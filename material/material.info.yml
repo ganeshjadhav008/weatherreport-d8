@@ -1,0 +1,6 @@
+name: 'Material'
+type: module
+description: 'Weather report'
+core: 8.x
+core_version_requirement: ^8
+package: 'Material'

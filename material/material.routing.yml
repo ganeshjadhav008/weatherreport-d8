@@ -1,0 +1,7 @@
+material.weather:
+  path: 'weather'
+  methods: GET
+  defaults:
+    _controller: '\Drupal\material\Controller\WeatherController::getWether'
+  requirements:
+    _permission: 'weather report'  

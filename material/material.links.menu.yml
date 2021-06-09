@@ -1,0 +1,5 @@
+material.content:  
+  title: 'Weather report'  
+  route_name: material.weather 
+  parent: main  
+  weight: 99 

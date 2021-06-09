@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Content alter functions.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function material_theme($existing, $type, $theme, $path) {
+  return [
+    'weather' => [
+      'variables' => ['params' => NULL],
+    ],
+  ];
+}
